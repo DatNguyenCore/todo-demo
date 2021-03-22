@@ -111,7 +111,7 @@ function Order(props) {
 		<View style={ApplicationStyles.screen.container}>
 			<Header
 				goBack={() => navigation.navigate('Products')}
-				label='Order'
+				label='New Todo'
 				rightButton={() => navigation.navigate('Order')}
 			></Header>
 			<ScrollView showsVerticalScrollIndicator={false}>

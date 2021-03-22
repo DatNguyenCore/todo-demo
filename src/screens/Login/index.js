@@ -31,7 +31,7 @@ function Login({ navigation }) {
 			<TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
 				<View style={styles.content}>
 					<Image
-						source={require('../../images/logo.png')}
+						source={require('../../images/todo.png')}
 						style={styles.logo}
 					></Image>
 					<TextInput
